@@ -733,7 +733,7 @@ iframe {
     justify-content: center;
     align-items: flex-start;
     gap: 1.5vw;
-    background-color: #fff;
+    background-color: #e1f0ff;
     border: solid 1px transparent;
     border-radius: 0.2vw;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
@@ -741,8 +741,8 @@ iframe {
 }
 
 .school-card img {
-    width: 40%;
-    max-height: 350px;
+    min-width: 40%;
+    max-height: 400px;
     object-fit: cover;
     object-position: top;
 }
