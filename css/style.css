@@ -229,7 +229,7 @@ nav {
 }
 
 .section-wrap {
-    max-width: 120rem;
+    max-width: 130rem;
     margin: auto;
     display: flex;
     justify-content: center;
@@ -238,15 +238,6 @@ nav {
     gap: 4vw;
     padding: 1vw 4vw;
     /* border: solid 1px red; */
-}
-
-.experience-container {
-    width: 85%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 4vw;
 }
 
 .section-title {
@@ -258,6 +249,15 @@ nav {
 .section-title p {
     font-size: 3vw;
     letter-spacing: 1.5px;
+}
+
+.about-para {
+    font-size: 1.5vw;
+    line-height: 1.4;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    text-align: justify;
+    font-family: "Nunito Sans";
 }
 
 .experience-card {
@@ -590,12 +590,12 @@ footer {
     background-color: #fff;
     border: solid 1px transparent;
     border-radius: 0.2vw;
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+    box-shadow: 7px 7px 12px rgba(0, 0, 0, 0.2);
 }
 
 .contact-card:hover {
     background-color: #e1f0ff;
-    transform: translateY(-0.5vw);
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
     transition: all 0.3s;
 }
 
@@ -697,7 +697,7 @@ iframe {
 
 .gallery-container {
     width: 100%;
-    columns: 4;
+    columns: 3;
     column-gap: 10px;
 }
 

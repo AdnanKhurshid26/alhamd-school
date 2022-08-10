@@ -91,7 +91,17 @@
             <div class="form-and-map">
                 <form class="contact-form" action="https://formspree.io/f/xjvzbdjp" method="POST">
                     <div class="form-group">
-                        <label for="exampleInputEmail1">Email address</label>
+                        <label for="exampleInputEmail1">Name</label>
+                        <input type="text" class="form-control" id="name" aria-describedby="emailHelp" placeholder="Enter your name" name="name">
+
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleInputEmail1">Phone Number</label>
+                        <input type="number" class="form-control" id="phone" aria-describedby="emailHelp" placeholder="Enter phone no." name="phone">
+
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleInputEmail1">Email Address</label>
                         <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email" name="email">
 
                     </div>
@@ -100,7 +110,7 @@
                         <textarea class="form-control" id="exampleFormControlTextarea1" rows="8" name="message" placeholder="Enter your message"></textarea>
                     </div>
 
-                    <button type="submit" class="btn btn-primary btn-submit">Submit</button>
+                    <button type="submit" class="btn btn-primary btn-submit" id="msg-submit">Submit</button>
                 </form>
                 <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14729.770504962828!2d88.4779212!3d22.6372799!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xa3aa6b1acf67fa84!2sAl-Hamd%20International%20School!5e0!3m2!1sen!2sin!4v1659837762740!5m2!1sen!2sin"
                     width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>

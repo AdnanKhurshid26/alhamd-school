@@ -98,3 +98,16 @@ const alertOperation = () => {
 }
 
 alertOperation();
+
+
+// const appendNamePhone = () => {
+//     const name = document.getElementById("name");
+//     const phone = document.getElementById("phone");
+//     const msg = document.getElementById("exampleFormControlTextarea1");
+//     const btn = document.getElementById("msg-submit");
+
+//     btn.addEventListener("click", () => {
+//         msg.insertAdjacentText("beforebegin", `Name: ${name.value}\nPhone: ${phone.value}\n`);
+//     });
+// }
+// appendNamePhone();

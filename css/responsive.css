@@ -112,6 +112,18 @@ html {
     .section-title p {
         font-size: 6vw;
     }
+    .about-para {
+        font-size: 16px;
+        line-height: 1.4;
+        letter-spacing: 1px;
+        word-spacing: 0px;
+    }
+    .carousel-control-prev-icon {
+        transform: scale(0.8);
+    }
+    .carousel-control-next-icon {
+        transform: scale(0.8);
+    }
     /************************* FOOTER*************************************/
     footer {
         margin-top: 10vw;
