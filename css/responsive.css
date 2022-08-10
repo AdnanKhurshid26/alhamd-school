@@ -118,6 +118,38 @@ html {
         letter-spacing: 1px;
         word-spacing: 0px;
     }
+    .desk-content {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 3vw;
+        position: relative;
+    }
+    .desk-content img {
+        width: 80%;
+    }
+    .desk-content p {
+        font-size: 13px;
+        letter-spacing: 1px;
+        word-spacing: 1px;
+    }
+    .godbless {
+        font-size: 16px;
+    }
+    .motto {
+        font-size: 24px;
+        text-align: unset;
+    }
+    .desk-author {
+        font-size: 26px;
+        font-weight: 700;
+        text-align: center;
+    }
+    .principal {
+        font-size: 16px;
+    }
     .carousel-control-prev-icon {
         transform: scale(0.8);
     }
