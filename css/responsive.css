@@ -118,6 +118,13 @@ html {
         letter-spacing: 1px;
         word-spacing: 0px;
     }
+    .about-logos {
+        gap: 16px;
+    }
+    .about-logos img {
+        height: 100px;
+        width: auto;
+    }
     .desk-content {
         width: 100%;
         display: flex;
@@ -131,7 +138,7 @@ html {
         width: 80%;
     }
     .desk-content p {
-        font-size: 13px;
+        font-size: 16px;
         letter-spacing: 1px;
         word-spacing: 1px;
     }
@@ -139,7 +146,7 @@ html {
         font-size: 16px;
     }
     .motto {
-        font-size: 24px;
+        font-size: 22px;
         text-align: unset;
     }
     .desk-author {
@@ -360,5 +367,58 @@ html {
     }
     .sch-btn {
         width: 100%;
+    }
+    /**------------------------------ Prospectus ------------------------------*/
+    #prospectus {
+        padding-top: 14vh;
+    }
+    .pros-top {
+        padding: 2.2vw;
+        width: 100vw;
+    }
+    .school-div {
+        border-radius: 0.5vw;
+    }
+    .school-name-logo {
+        gap: 2.4vw;
+        padding: 2vw;
+    }
+    .school-name-logo img {
+        height: 75px;
+        width: auto;
+    }
+    .school-name-logo p {
+        font-size: 16px;
+    }
+    .pros-imgs {
+        grid-template-columns: 1fr;
+        gap: 2vw;
+        padding: 1vw;
+    }
+    .pros-imgs img {
+        width: 100%;
+        height: auto;
+    }
+    .pros-bottom {
+        width: 100vw;
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 3vw;
+        padding: 1vw;
+    }
+    .pros-imgs-bottom {
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 2vw;
+        padding: 1vw;
+    }
+    .pros-imgs-bottom img {
+        width: 100%;
+        height: auto;
+    }
+    .pros-bottom .school-name-logo img {
+        height: 50px;
+        width: auto;
     }
 }

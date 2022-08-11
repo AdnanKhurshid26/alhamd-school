@@ -253,6 +253,19 @@ nav {
     letter-spacing: 1.5px;
 }
 
+.about-logos {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.about-logos img {
+    height: 200px;
+    width: auto;
+}
+
 .about-para {
     font-size: 1.5vw;
     line-height: 1.4;
@@ -285,11 +298,11 @@ nav {
 }
 
 .godbless {
-    font-size: 2.4vw;
+    font-size: 30px;
     font-weight: 700;
     color: #104fa6;
     letter-spacing: 1.5px;
-    font-family: 'Dancing Script', cursive;
+    font-family: "Rubik";
 }
 
 .motto {
@@ -301,7 +314,7 @@ nav {
 }
 
 .desk-author {
-    font-size: 1.7vw;
+    font-size: 36px;
     font-weight: 700;
     text-align: center;
     font-weight: 700;
@@ -311,7 +324,7 @@ nav {
 }
 
 .principal {
-    font-size: 1.1vw;
+    font-size: 30px;
 }
 
 .experience-card {
@@ -832,4 +845,104 @@ iframe {
 .sch-btn a {
     text-decoration: none;
     color: #fff;
+}
+
+
+/**------------------------------ Prospectus ------------------------------*/
+
+.prospectus-imgs {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2vw;
+    padding: 1vw;
+    width: 80vw;
+}
+
+.prospectus-imgs img {
+    width: 100%;
+    height: auto;
+}
+
+.pros-top {
+    padding: 1vw;
+    width: 80vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.school-div {
+    background-color: #edf6ff;
+    border: solid 1px transparent;
+    border-radius: 0.2vw;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+    padding: 10px;
+}
+
+.school-div:hover {
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s;
+}
+
+.school-name-logo {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 1vw;
+    width: 100%;
+    padding: 1vw;
+}
+
+.school-name-logo img {
+    height: 150px;
+    width: auto;
+}
+
+.school-name-logo p {
+    font-family: "Nunito Sans", sans-serif;
+    font-size: 2.2VW;
+    font-weight: 700;
+    color: #104fa6;
+    line-height: 1.4;
+}
+
+.pros-imgs {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2vw;
+    padding: 1vw;
+}
+
+.pros-imgs img {
+    width: 100%;
+    height: auto;
+}
+
+.pros-bottom {
+    width: 80vw;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 3vw;
+    padding: 1vw;
+}
+
+.pros-imgs-bottom {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2vw;
+    padding: 1vw;
+}
+
+.pros-imgs-bottom img {
+    width: 100%;
+    height: auto;
+}
+
+.pros-bottom .school-name-logo img {
+    height: 100px;
+    width: auto;
 }
