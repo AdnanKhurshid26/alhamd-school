@@ -102,6 +102,7 @@ html {
     .section-wrap {
         gap: 4vw;
         padding: 4vw;
+        padding-top: 0;
         /* border: solid 1px red; */
     }
     .section-title {
@@ -111,6 +112,14 @@ html {
     }
     .section-title p {
         font-size: 6vw;
+    }
+    .head-title {
+        width: 100vw;
+        height: 150px;
+        display: flex;
+    }
+    .head-title h2 {
+        font-size: 40px;
     }
     .about-para {
         font-size: 16px;
@@ -278,13 +287,21 @@ html {
         transition: all 0.3s;
     }
     .card-text h2 {
-        font-size: 5vw;
+        font-size: 6vw;
     }
     .card-text p {
-        font-size: 3.2vw;
+        font-size: 4.4vw;
     }
     .material-icons {
-        font-size: 12vw;
+        font-size: 16vw;
+    }
+    .contact-card:first-child {
+        border-top-left-radius: 2.5vw;
+        border-top-right-radius: 2.5vw;
+    }
+    .contact-card:first-child h2 {
+        color: #fff;
+        font-size: 6vw;
     }
     .form-and-map {
         padding: 2.5vw 3.2vw;
@@ -418,7 +435,7 @@ html {
         height: auto;
     }
     .pros-bottom .school-name-logo img {
-        height: 50px;
+        height: 75px;
         width: auto;
     }
     /************************VISION & MISSION************************/
