@@ -166,6 +166,7 @@ nav {
 .main-nav-link:active {
     color: #104fa6;
     border-bottom: solid 2px #104fa6;
+    text-align: center;
 }
 
 .btn-cta:visited,
