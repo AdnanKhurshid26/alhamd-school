@@ -100,6 +100,14 @@ const alertOperation = () => {
 alertOperation();
 
 
+const goToTop = () => {
+    const goToTopBtn = document.querySelector(".footer-top-btn");
+
+    goToTopBtn.addEventListener("click", () => {
+        window.scrollTo({ top: 0, behavior: "smooth" });
+    });
+}
+
 // const appendNamePhone = () => {
 //     const name = document.getElementById("name");
 //     const phone = document.getElementById("phone");
