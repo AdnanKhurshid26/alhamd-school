@@ -178,7 +178,7 @@ html {
     }
     .top {
         grid-template-columns: 1fr;
-        gap: 2vw;
+        gap: 8vw;
         padding: 6vw;
     }
     .left {
@@ -200,10 +200,9 @@ html {
     .middle {
         align-items: flex-start;
         justify-content: center;
-        display: none;
     }
     .middle h3 {
-        font-size: 3.6vw;
+        font-size: 5vw;
         letter-spacing: 0.5px;
         padding: 1vw;
         margin-bottom: 2.6vw;
@@ -216,7 +215,7 @@ html {
         font-size: 4vw;
     }
     .right h3 {
-        font-size: 3.6vw;
+        font-size: 5vw;
         letter-spacing: 0.5px;
         padding: 1vw;
         margin-bottom: 2.6vw;

@@ -529,6 +529,11 @@ footer {
     font-size: 1.6vw;
 }
 
+.footer-top-btn a {
+    text-decoration: none;
+    color: #fff;
+}
+
 
 /*------------------------------ contact ------------------------------*/
 
