@@ -421,4 +421,39 @@ html {
         height: 50px;
         width: auto;
     }
+    /************************VISION & MISSION************************/
+    .vision-para {
+        font-size: 16px;
+        text-align: justify;
+    }
+    .aim-box {
+        width: 100%;
+    }
+    .aim-box h1 {
+        padding: 10px 20px;
+        font-size: 24px;
+        border-top-left-radius: 2.5vw;
+        border-top-right-radius: 2.5vw;
+    }
+    .aim-box ul li {
+        font-size: 16px;
+        padding: 15px;
+        line-height: 1.4;
+        position: relative;
+    }
+    .aim-box ul li span {
+        width: 20px;
+        height: 20px;
+        background-color: #104fa6;
+        text-align: center;
+        line-height: 20px;
+        color: #fff;
+        display: inline-block;
+        border-radius: 50%;
+        margin-right: 20px;
+        padding: 4vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
 }
