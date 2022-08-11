@@ -159,6 +159,7 @@ nav {
     border: solid 2px transparent;
     transition: all 0.2s;
     text-decoration: none;
+    text-align: center;
 }
 
 .main-nav-link:hover,
