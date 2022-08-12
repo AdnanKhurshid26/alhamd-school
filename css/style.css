@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@400;600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+SC:wght@300;400;500;600;700&family=Dancing+Script:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap');
 * {
     margin: 0;
     padding: 0;
@@ -89,10 +91,11 @@ header {
 
 .school-name p {
     font-size: 2.4vw;
-    font-weight: 700;
+    font-weight: 600;
     color: #104fa6;
     letter-spacing: 1.8px;
     line-height: 1.2;
+    font-family: 'DM Serif Display', serif;
 }
 
 .address-phone {
@@ -102,6 +105,7 @@ header {
     height: 100%;
     padding: 2vw 0;
     gap: 2vw;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .fa-location-arrow {
