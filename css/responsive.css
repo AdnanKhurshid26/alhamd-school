@@ -45,7 +45,7 @@ html {
     }
     header {
         width: 100vw;
-        height: 14vh;
+        height: 16vh;
         position: fixed;
         z-index: 10;
     }
@@ -54,19 +54,19 @@ html {
         justify-content: center;
         align-items: flex-start;
         width: 100%;
-        gap: 4vw;
-        padding: 2vw 6vw;
+        gap: 2vw;
+        padding: 2vw;
     }
     .logo img {
         height: 18vw;
     }
     .school-name p {
-        font-size: 3.4vw;
+        font-size: 3.8vw;
         font-weight: 700;
         color: #104fa6;
         letter-spacing: 1px;
         line-height: 1.2;
-        padding-right: 1vw;
+        padding-right: 5vw;
     }
     .address-phone {
         display: none;
@@ -97,7 +97,7 @@ html {
     .carousel {
         width: 100vw;
         height: auto;
-        padding-top: 14vh;
+        padding-top: 16vh;
         z-index: 2;
     }
     .section-wrap {
@@ -240,7 +240,7 @@ html {
     }
     /************************* GALLERY*************************************/
     #gallery {
-        padding-top: 14vh;
+        padding-top: 16vh;
     }
     .gallery-container {
         width: 100%;
@@ -261,7 +261,7 @@ html {
     }
     /************************* CONTACT PAGE*************************************/
     #contact-page {
-        padding-top: 14vh;
+        padding-top: 16vh;
     }
     .contact-cards {
         display: grid;
@@ -387,7 +387,7 @@ html {
     }
     /**------------------------------ Prospectus ------------------------------*/
     #prospectus {
-        padding-top: 14vh;
+        padding-top: 16vh;
     }
     .pros-top {
         padding: 2.2vw;
