@@ -698,6 +698,13 @@ iframe {
     background-position: top;
 }
 
+.gallery-item video {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    background-position: top;
+}
+
 
 /****Schools****/
 
