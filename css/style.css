@@ -680,7 +680,7 @@ iframe {
 
 .gallery-container {
     width: 100%;
-    columns: 3;
+    columns: 2;
     column-gap: 10px;
 }
 
